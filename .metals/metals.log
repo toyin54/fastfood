@@ -278,3 +278,5 @@ public class AdultMealBuilder implements Builder {
 ^
 10 errors
 2023.04.03 10:04:51 WARN  no build target for: C:\Users\AJ\Documents\Depaul Computer Science\Fun\Java_Projecs\fastfood\AdultMealBuilder.java
+Apr 03, 2023 10:06:18 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
