@@ -280,3 +280,173 @@ public class AdultMealBuilder implements Builder {
 2023.04.03 10:04:51 WARN  no build target for: C:\Users\AJ\Documents\Depaul Computer Science\Fun\Java_Projecs\fastfood\AdultMealBuilder.java
 Apr 03, 2023 10:06:18 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.04.03 10:07:59 INFO  Shutting down server
+2023.04.03 10:07:59 INFO  shutting down Metals
+2023.04.03 10:07:59 INFO  Exiting server
+2023.04.03 10:08:38 INFO  Started: Metals version 0.11.11 in workspace 'C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood' for client Visual Studio Code 1.77.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/AJ/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.03 10:08:38 INFO  time: initialize in 0.64s
+Apr 03, 2023 10:08:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.04.03 10:08:39 WARN  Build server is not auto-connectable.
+2023.04.03 10:08:39 WARN  no build tool detected in workspace 'C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.03 10:08:39 WARN  no build target for: C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java
+2023.04.03 10:08:39 WARN  Running javac-semanticdb failed for file:///C:/Users/AJ/Documents/Depaul%20Computer%20Science/Fun/java_projecs/fastfood/AdultMealBuilder.java. Output:
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:1: error: <identifier> expected
+package.java_projecs
+       ^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:1: error: ';' expected
+package.java_projecs
+                    ^
+2 errors
+2023.04.03 10:08:44 WARN  no build target for: C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java
+2023.04.03 10:08:45 WARN  Running javac-semanticdb failed for file:///C:/Users/AJ/Documents/Depaul%20Computer%20Science/Fun/java_projecs/fastfood/AdultMealBuilder.java. Output:
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:1: error: <identifier> expected
+package.java_projects;
+       ^
+1 error
+2023.04.03 10:08:55 WARN  no build target for: C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java
+2023.04.03 10:08:55 WARN  Running javac-semanticdb failed for file:///C:/Users/AJ/Documents/Depaul%20Computer%20Science/Fun/java_projecs/fastfood/AdultMealBuilder.java. Output:
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:1: error: class, interface, or enum expected
+packageor org.java_projects;
+^
+1 error
+2023.04.03 10:08:57 WARN  no build target for: C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java
+2023.04.03 10:08:58 WARN  Running javac-semanticdb failed for file:///C:/Users/AJ/Documents/Depaul%20Computer%20Science/Fun/java_projecs/fastfood/AdultMealBuilder.java. Output:
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:2: error: cannot find symbol
+public class AdultMealBuilder implements Builder {
+                                         ^
+  symbol: class Builder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:3: error: cannot find symbol
+	private FastFoodOrder order = new FastFoodOrder();
+	        ^
+  symbol:   class FastFoodOrder
+  location: class AdultMealBuilder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:26: error: cannot find symbol
+	public FastFoodOrder getResult() {
+	       ^
+  symbol:   class FastFoodOrder
+  location: class AdultMealBuilder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:3: error: cannot find symbol
+	private FastFoodOrder order = new FastFoodOrder();
+	                                  ^
+  symbol:   class FastFoodOrder
+  location: class AdultMealBuilder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:5: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:10: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:15: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:20: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:25: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:1: error: semanticdb-javac: unknown flag 'Computer'
+package org.java_projects;
+^
+10 errors
+2023.04.03 10:09:19 WARN  no build target for: C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java
+2023.04.03 10:09:20 WARN  Running javac-semanticdb failed for file:///C:/Users/AJ/Documents/Depaul%20Computer%20Science/Fun/java_projecs/fastfood/AdultMealBuilder.java. Output:
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:2: error: cannot find symbol
+public class AdultMealBuilder implements Builder {
+                                         ^
+  symbol: class Builder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:3: error: cannot find symbol
+	private FastFoodOrder order = new FastFoodOrder();
+	        ^
+  symbol:   class FastFoodOrder
+  location: class AdultMealBuilder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:26: error: cannot find symbol
+	public FastFoodOrder getResult() {
+	       ^
+  symbol:   class FastFoodOrder
+  location: class AdultMealBuilder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:3: error: cannot find symbol
+	private FastFoodOrder order = new FastFoodOrder();
+	                                  ^
+  symbol:   class FastFoodOrder
+  location: class AdultMealBuilder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:5: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:10: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:15: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:20: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:25: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:1: error: semanticdb-javac: unknown flag 'Computer'
+package org.java_projecs;
+^
+10 errors
+2023.04.03 10:09:29 WARN  no build target for: C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\Builder.java
+2023.04.03 10:09:29 WARN  Running javac-semanticdb failed for file:///C:/Users/AJ/Documents/Depaul%20Computer%20Science/Fun/java_projecs/fastfood/Builder.java. Output:
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\Builder.java:6: error: cannot find symbol
+	public FastFoodOrder getResult();
+	       ^
+  symbol:   class FastFoodOrder
+  location: interface Builder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\Builder.java:1: error: semanticdb-javac: unknown flag 'Computer'
+interface Builder {
+^
+2 errors
+2023.04.03 10:09:37 WARN  no build target for: C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java
+2023.04.03 10:09:37 WARN  Running javac-semanticdb failed for file:///C:/Users/AJ/Documents/Depaul%20Computer%20Science/Fun/java_projecs/fastfood/AdultMealBuilder.java. Output:
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:2: error: cannot find symbol
+public class AdultMealBuilder implements Builder {
+                                         ^
+  symbol: class Builder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:3: error: cannot find symbol
+	private FastFoodOrder order = new FastFoodOrder();
+	        ^
+  symbol:   class FastFoodOrder
+  location: class AdultMealBuilder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:26: error: cannot find symbol
+	public FastFoodOrder getResult() {
+	       ^
+  symbol:   class FastFoodOrder
+  location: class AdultMealBuilder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:3: error: cannot find symbol
+	private FastFoodOrder order = new FastFoodOrder();
+	                                  ^
+  symbol:   class FastFoodOrder
+  location: class AdultMealBuilder
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:5: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:10: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:15: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:20: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:25: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\AJ\Documents\Depaul Computer Science\Fun\java_projecs\fastfood\AdultMealBuilder.java:2: error: semanticdb-javac: unknown flag 'Computer'
+public class AdultMealBuilder implements Builder {
+^
+10 errors
+2023.04.03 10:09:44 INFO  Shutting down server
+2023.04.03 10:09:44 INFO  shutting down Metals
+2023.04.03 10:09:44 INFO  Exiting server
